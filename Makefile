@@ -18,7 +18,7 @@ LFLAGS = -lglfw -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl
 OUTPUT	:= output
 
 # define source directory
-SRC		:= src
+SRC		:= src/Window
 
 # define include directory
 INCLUDE	:= include
