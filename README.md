@@ -3,13 +3,14 @@
 ## Installation guide Linux
 
 ### 1. Install glfw and glad
-sudo apt-get install libglfw3
+#### 1.1 glfw
+sudo apt-get install libglfw3\
 sudo apt-get install libglfw3-dev
-
-git clone https://github.com/Dav1dde/glad.git
-cd glad
-cmake ./
-make
+#### 1.2 glad
+git clone https://github.com/Dav1dde/glad.git\
+cd glad\
+cmake ./\
+make\
 sudo cp -a include /usr/local/
 
 ### 2.Install dependencies
