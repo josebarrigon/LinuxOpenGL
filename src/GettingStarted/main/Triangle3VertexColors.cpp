@@ -45,7 +45,7 @@ int main()
 	//ViewPort
 	glViewport(0, 0, 800, 600);
 
-	Shader ourShader("Shaders/CH6/default.vs", "Shaders/CH6/default.fs"); // you can name your shader files however you like
+	Shader ourShader("Shaders/CH6/vert.glsl", "Shaders/CH6/frag.glsl"); // you can name your shader files however you like
 
 
 	/*---Pass data from the cpu to the gpu using buffers---*/
