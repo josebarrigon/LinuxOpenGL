@@ -18,7 +18,7 @@ LFLAGS = -lglfw -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl -l
 OUTPUT	:= output
 
 # define source directory
-SRC		:= src/main
+SRC		:= src/GettingStarted/main
 
 
 # define include directory
