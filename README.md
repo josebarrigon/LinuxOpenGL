@@ -7,7 +7,7 @@
 sudo apt-get install libglfw3\
 sudo apt-get install libglfw3-dev
 #### 1.2 glad
-git clone https://github.com/Dav1dde/glad.git\
+git clone https://github.com/Dav1dde/glad.git
 cd glad\
 cmake ./\
 make\
