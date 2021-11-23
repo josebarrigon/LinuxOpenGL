@@ -15,3 +15,6 @@ sudo cp -a include /usr/local/
 
 ### 2.Install dependencies
 sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev xorg-dev
+
+### 3. Run
+make run
